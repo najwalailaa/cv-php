@@ -1,0 +1,233 @@
+body{
+   background-color: #E6E6E6;
+}
+.pics{
+    display: block;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: 50px;
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-image: url(DSC00090.jpg);
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+}
+.container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    width: 595px;
+    height: 842px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    margin-left: 36px;
+    width: 210px;
+    height: 760px;
+    background-color:#768A96;
+    color:#AAC7D8;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 76px;
+    height: 830px;
+    background-color:#44576D;
+    color: black;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    margin-top: -600px;
+    margin-bottom: 400px;
+    margin-left: 25px;
+    width: 202px;
+    height: 149px;
+    background-color: #44576D;
+    color: #44576D;
+}
+.font2 {
+    font-family: Poppins;
+    src: url(Poppins-SemiBold.ttf);
+    margin-top: 30px;
+    margin-left: -30px;
+    font-size: 24px;
+}
+.font{
+    font-family: Poppins;
+    src: url(Poppins-SemiBold.ttf);
+    margin-top: 20px;
+    transform: rotate(-90deg);
+}
+.font3{
+    font-family: Vollkorn;
+    src: url(Vollkorn-Regular.ttf);
+    margin-top: 30px;
+    margin-left: -30px;
+    font-size: 16px;
+    text-align: justify;
+    width: 345px;
+    height: 98px;
+}
+.contact{
+    font-family: Poppins;
+    src: url(Poppins-SemiBold.ttf);
+    font-size: 18px;
+    text-align: right;
+    width: 153px;
+    height: 23px;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: #FFFFFF; 
+}
+.cbox{
+    font-family: Poppins;
+    src: url(Poppins-Light.ttf);
+    font-size: 10px;
+    text-align: justify;
+    width: 190px;
+    height: 69px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.education{
+    font-family: Poppins;
+    src: url(Poppins-SemiBold.ttf);
+    text-align: left;
+    font-size: 18px;
+    width: 155px;
+    height: 22px;
+    color: white;
+    margin-top: 175px;
+    margin-left: 25px;
+}
+.ebox{
+    font-family: Vollkorn;
+    src: url(Vollkorn-Regular.ttf);
+    text-align: justify;
+    font-size: 14px;
+    width: 160px;
+    height: 159px;
+    color: white;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+.skill{
+    font-family: Poppins;
+    src: url(Poppins-SemiBold.ttf);
+    text-align: left;
+    font-size: 16px;
+    width: 155px;
+    height: 22px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.sbox{
+    font-family: Vollkorn;
+    src: url(Vollkorn-Regular.ttf);
+    text-align: justify;
+    font-size: 14px;
+    width: 160px;
+    height: 159px;
+    color: white;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+.boxbesar{ 
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 76px;
+    height: 830px;
+    background-color:#E6E6E6;
+    color: black;
+
+}
+.font4{
+    font-family: Poppins;
+    src: url(Poppins-SemiBold.ttf);
+    font-size: 30px;
+    margin-top: 30px;
+    float: right;
+    width: 76px;
+    height: 65px;
+    margin-left: 250px;
+}
+.font5{
+    font-family: Poppins;
+    src: url(Poppins-SemiBold.ttf);
+    font-size: 16px;
+    margin-top: 40px;
+    float: right;
+    width: 215px;
+    height: 31px;
+    margin-left: 50px;
+}
+.org{
+    font-family: Poppins;
+    src: url(Poppins-SemiBold.ttf);
+    text-align: left;
+    font-size: 16px;
+    width: 299px;
+    height: 31px;
+    color: black;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.orgisi{
+    width: 304px;
+    height: 489px;
+    margin-top: 5px;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.orgbox1{
+    font-family: Vollkorn;
+    src: url(Vollkorn-Regular.ttf);
+    text-align: justify;
+    font-size: 12px;
+    color: black;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.orgbox2{
+    font-family: Vollkorn;
+    src: url(Vollkorn-Regular.ttf);
+    text-align: justify;
+    font-size: 10px;
+    color: black;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.cpbox{
+    margin-left: 500px;
+    margin-top: -100px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    width: auto;
+    background-color:#E6E6E6;
+    color: black;
+}
+.cp{
+    font-family: Arial;
+    text-align: justify;
+    font-size: 8px;
+    color: rgb(139, 136, 136);
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
